@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import TaskList from './pages/TaskList';
 import CreateTask from './pages/CreateTask';
 
@@ -9,7 +9,7 @@ function App() {
     <Router basename='/Frontend-Cloud-Technical-Test-Deploy'>
       <div className="min-h-screen bg-color-font w-screen h-auto border-2 py-8 px-12">
         <Routes>
-          <Route path="/Frontend-Cloud-Technical-Test-Deploy" element={<Navigate to="/tasks" />} />
+          <Route path="/" element={<Navigate to="/tasks" />} />
           
           <Route path="/tasks" element={<TaskList />} />
           
