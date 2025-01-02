@@ -9,7 +9,7 @@ function App() {
     <Router basename='/Frontend-Cloud-Technical-Test-Deploy'>
       <div className="min-h-screen bg-color-font w-screen h-auto border-2 py-8 px-12">
         <Routes>
-          <Route path="/" element={<Navigate to="/tasks" />} />
+          <Route path="/Frontend-Cloud-Technical-Test-Deploy" element={<Navigate to="/tasks" />} />
           
           <Route path="/tasks" element={<TaskList />} />
           
