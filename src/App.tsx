@@ -6,7 +6,7 @@ import CreateTask from './pages/CreateTask';
 function App() {
 
   return (
-    <Router basename='/Frontend-Cloud-Technical-Test-Deploy'>
+    <Router basename='/Frontend-Cloud-Technical-Test-Deploy/tasks'>
       <div className="min-h-screen bg-color-font w-screen h-auto border-2 py-8 px-12">
         <Routes>
           <Route path="/" element={<Navigate to="/tasks" />} />
