@@ -1,6 +1,6 @@
 {
   "name": "task-list-frontend",
-  "homepage": "https://deivid30medina.github.io/Frontend-Cloud-Technical-Test-Deploy/",
+  "homepage": "https://deivid30medina.github.io/Frontend-Cloud-Technical-Test-Deploy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,7 +17,8 @@
     "notyf": "^3.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+    "gh-pages": "^6.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
